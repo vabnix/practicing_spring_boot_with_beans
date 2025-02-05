@@ -11,11 +11,11 @@ public class Employee {
     User user;
 
     public Employee() {
-        System.out.println("Employee Initialized");
+//        System.out.println("Employee Initialized");
     }
 
     @PostConstruct
     public void init(){
-        System.out.println("Employee Object Hashcode - "+ this.hashCode());
+//        System.out.println("Employee Object Hashcode - "+ this.hashCode());
     }
 }

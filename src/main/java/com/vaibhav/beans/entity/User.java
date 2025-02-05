@@ -9,11 +9,11 @@ import org.springframework.stereotype.Component;
 public class User {
 
     public User() {
-        System.out.println("User Initialized");
+//        System.out.println("User Initialized");
     }
 
     @PostConstruct
     public void init(){
-        System.out.println("User Object Hashcode - "+ this.hashCode());
+//        System.out.println("User Object Hashcode - "+ this.hashCode());
     }
 }
