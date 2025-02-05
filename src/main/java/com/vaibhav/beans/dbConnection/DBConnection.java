@@ -7,10 +7,10 @@ import org.springframework.stereotype.Component;
 @Component
 public class DBConnection {
 
-    @Autowired
+    @Autowired(required = false)
     PostgresConnection postgresConnection;
 
-    @Autowired
+    @Autowired(required = false)
     NoSqlConnection noSqlConnection;
 
     @PostConstruct
